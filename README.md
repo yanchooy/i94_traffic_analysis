@@ -13,3 +13,9 @@ To find indicators of heavy traffic
 - Daytime indicators average traffic volume by time of day
 - Numerical weather indicators and its correlation with average traffic volume
 - Categorical weather indicators average traffic volume
+
+# Analysis tools
+- Pandas dataframe and series operations
+- Matplotlib visualisations
+- Python Datetime modules and datetime class attributes such as hour, dayofweek, month, year
+- Python correlation method 
