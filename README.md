@@ -2,8 +2,10 @@
 [Dataset](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume) contains hourly Minneapolis-St Paul, MN traffic volume for westbound I-94, including weather and holiday features from 2012-2018.
 Traffic is recorded at MN DoT ATR station 301, roughly midway westbound between Minneapolis and St Paul, MN, and not for the entire highway.
 
-# Analysis Goals
-To find indicators of heavy traffic
+There are 48204 rows and 9 columns.
+
+# Project Goals
+To find indicators of heavy traffic.
 
 # Indicators studied 
 - Day and Night traffic volume
@@ -13,12 +15,6 @@ To find indicators of heavy traffic
 - Daytime indicators average traffic volume by time of day
 - Numerical weather indicators and its correlation with average traffic volume
 - Categorical weather indicators average traffic volume
-
-# Analysis tools
-- Pandas dataframe and series operations
-- Matplotlib visualisations
-- Python Datetime modules and datetime class attributes such as hour, dayofweek, month, year
-- Python correlation method 
 
 # Conclusion
 Two types of indicators of heavy traffic was identified as below:
@@ -32,3 +28,10 @@ Two types of indicators of heavy traffic was identified as below:
 - Shower snow
 - Light rain and snow
 - Proximity thunderstorm with drizzle
+
+# Analysis tools
+- Pandas dataframe and series operations
+- Matplotlib visualisations
+- Python Datetime modules and datetime class attributes such as hour, dayofweek, month, year
+- Python correlation method 
+
